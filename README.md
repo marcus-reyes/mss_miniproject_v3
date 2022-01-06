@@ -29,3 +29,5 @@ Run the following command to produce separated music samples as well as graph th
 python3 separate_test.py
 python3 process_loss_text.py
 ```
+
+### Final note: There are a lot of hard coded directories that will need manual changing.
