@@ -13,7 +13,7 @@ All commands are run once you change directory from the main project.
 The source code does not have a requirments.txt. As such we manually installed the requirements when indicated as missing by the command line.
 
 ### 2a. Data Preperation 
-Download the dataset from [URMP homepage](http://www2.ece.rochester.edu/projects/air/projects/URMP.html).After this, you will have to edit the folder "15_Surprise_tpt_tpt_tbn". Some files in the dataset are mistakenly labelled as tpt when they should be tbn. Then in urmp_generate_dataset.py lines 44 and 46 the "resolution" should be changed to "ref". Finally run generate_features.py and generate_dataset.py. Adjust the arguments as needed.
+Download the dataset from [URMP homepage](http://www2.ece.rochester.edu/projects/air/projects/URMP.html). After this, you will have to edit the folder "15_Surprise_tpt_tpt_tbn". Some files in this folder are mistakenly labelled as tpt when they should be tbn. Then in urmp_generate_dataset.py lines 44 and 46 the "resolution" should be changed to "ref". Finally run generate_features.py and generate_dataset.py. Adjust the arguments as needed.
 
 
 
